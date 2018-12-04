@@ -37,9 +37,15 @@ int main()
 			cout<<"Otvet:"<<c<<endl;
             break;
         case 4:
-			c = a/b;
-			cout<<"Otvet:"<<c<<endl;
-            break;
+			if (b != 0) 
+			{
+				c = a/b;
+				cout<<"Otvet:"<<c<<endl;
+			}
+			else 
+			{
+				printf( "Division by zero.\n" );
+			}
 	}
 
 	system("pause");
