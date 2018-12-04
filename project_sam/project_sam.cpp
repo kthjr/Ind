@@ -50,6 +50,8 @@ int main()
 				{
 					printf( "Division by zero.\n" );
 				}
+			default:
+				printf( "Nepravilnyi vvod.\n" );
 
 		}
 
