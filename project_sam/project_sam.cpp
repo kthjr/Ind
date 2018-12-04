@@ -16,6 +16,9 @@ int main()
 
 	printf( "Vyberite deistvie?\n" );
     printf( "1. +\n" );
+    printf( "2. -\n" );
+    printf( "3. *\n" );
+    printf( "4. /\n" );
 
 	printf( "Vash vybor: " );
     scanf("%d", &input );
@@ -23,6 +26,18 @@ int main()
 	switch ( input ) {
         case 1:           
             c = a+b;
+			cout<<"Otvet:"<<c<<endl;
+            break;
+        case 2:
+            c = a-b;
+			cout<<"Otvet:"<<c<<endl;
+            break;
+        case 3:
+            c = a*b;
+			cout<<"Otvet:"<<c<<endl;
+            break;
+        case 4:
+			c = a/b;
 			cout<<"Otvet:"<<c<<endl;
             break;
 	}
